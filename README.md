@@ -1,22 +1,20 @@
-# Git Practice
+# Git練習リポジトリ
 
-A small repository for keeping files created while practicing Git. It is a version-control exercise archive rather than a runnable application.
+Gitの操作を練習する際に作成したテキストファイルと、その変更履歴を確認するための小さなリポジトリです。実行可能なアプリケーションではありません。
 
-## Repository contents
+## 現在のファイル
 
-The root currently contains a handful of numbered practice files:
+| ファイル | 内容 |
+| --- | --- |
+| `practice2.txt` | 練習用ファイル |
+| `practice3.txt` | 練習用ファイル |
+| `practice9.txt` | 練習用ファイル |
+| `practice11.txt` | 練習用ファイル |
+| `practice13.txt` | 練習用ファイル |
 
-- `practice2.txt`
-- `practice3.txt`
-- `practice9.txt`
-- `practice11.txt`
-- `practice13.txt`
+現時点のスナップショットには空のファイルも含まれています。依存パッケージやビルド手順はありません。
 
-Some files are blank in the current snapshot. The repository has no application dependencies or build step.
-
-## Inspecting the history
-
-Clone the repository and inspect the commits and branches with Git:
+## 変更履歴の確認
 
 ```bash
 git clone https://github.com/scribefire/git-practice-80.git
@@ -25,4 +23,4 @@ git log --oneline --all --decorate
 git branch --all
 ```
 
-Use `git show <commit>` or `git log -- <file>` to review how an individual practice file changed.
+個別ファイルの変更は、`git show <commit>` または `git log -- <file>` で確認できます。
